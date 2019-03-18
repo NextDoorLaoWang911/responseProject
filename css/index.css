@@ -1,0 +1,317 @@
+body{
+	margin: 0;
+	background: #ffffff;
+}
+h1,h3{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.warp{
+	width: 1215px;
+	margin: 0 auto;
+}
+.head{
+	height: 50px;
+}
+
+.logo{
+	float: left;
+	width: 108px;
+	height: 50px;
+	background: url(../img/logo.png) no-repeat;
+	margin-right: 45px;
+}
+.head-nav{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font: 13px/50px "微软雅黑",arial;
+}
+
+.nav-list{
+	height: 50px;
+}
+.nav-item{
+	float: left;
+	margin-right: 52px;
+}
+.nav-item a{
+	color: black;
+}
+.nav-item:nth-last-child(1){
+	padding-right: 20px;
+	background: url(../img/nav-more.png) no-repeat 33px 22px;
+}
+.login{
+	float: right;
+	width: 132px;
+	height: 50px;
+	font: 13px/50px "微软雅黑";
+}
+.login a{
+	float: left;
+	color: black;
+}
+.list-title{
+	font:bold 25px/33px "微软雅黑";
+	margin-left: 36px;
+	margin-bottom: 15px;
+}
+.serach,.gouwuche{
+	width: 20px;
+	height: 24px;
+	margin-right: 26px;
+	margin-top: 13px;
+}
+.serach{
+	background: url(../img/head-serach.png) no-repeat;
+}
+.gouwuche{
+	background: url(../img/gouwuche.png) no-repeat;
+}
+.content1,.content2,.content3{
+	width: 1215px;
+	margin-bottom: 50px;
+}
+.banner{
+	width: 1215px;
+	height: 454px;
+	margin-bottom: 48px;
+}
+
+.notebook-list{
+	overflow: hidden;
+	padding-left: 36px;
+}
+.notebook-item{
+	width: 267px;
+	float: left;
+	margin-right: 24px;
+}
+.book-title,.book-miaoshu{
+	display: block;
+	color: black;
+}
+.book-title{
+	font:bold 21px/31px "微软雅黑";
+}
+.book-miaoshu{
+	font: 14px/20px "微软雅黑";
+}
+.buy-now{
+	font: 13px/39px "微软雅黑";
+	color: #0067b8;
+}
+.guanzhu{
+	height: 32px;
+	font: 13px/32px "微软雅黑";
+	margin-bottom: 48px;
+}
+.guanzhu a{
+	float: left;
+	color: #666666;
+}
+.weixin,.weibo{
+	margin-left: 12px;
+}
+.foot{
+	background: #f2f2f2;
+}
+.foot-list{
+	float: left;
+	margin-bottom: 40px;
+}
+.foot-main{
+	overflow: hidden;
+	padding: 32px 68px 0px 68px;
+}
+.foot-item{
+	font: 11px/32px "微软雅黑";
+}
+.foot-item a{
+	color: #616161;
+}
+.foot-item .title{
+	font:bold 13px/29px "微软雅黑";
+	color: #616161;
+}
+.one{
+	margin-right: 97px;
+}
+.two{
+	margin-right: 97px;
+}
+.three{
+	margin-right: 34px;
+}
+.four{
+	margin-right: 88px;
+}
+.five{
+	margin-right: 61px;
+}
+.head-menu{
+	float: left;
+	width: 22px;
+	height: 11px;
+	background: red;
+	margin-left: 14px;
+	margin-top: 20px;
+	display: none;
+}
+.zuixiao-banner1,.zuixiao-banner2{
+	display: none;
+}
+.zuixiao-banner3,.zuixiao-banner4{
+	display: none;
+}
+.zuixiao-banner5,.zuixiao-banner6{
+	display: none;
+}
+@media only all and (max-width:1200px ) {
+	.warp{
+		width: 1083px;
+	}
+	.logo{
+		margin-left: 24px;
+	}
+	.banner1,.banner2,.banner3{
+		width: 1083px;
+		height: 90%;
+		
+	}
+	.content1,.content2{
+		margin-bottom: 0px;
+	}
+	.banner img{
+		width: 100%;
+		height: 90%;
+	}
+	.notebook-item{
+		width: 494px;
+		margin-bottom: 50px;
+	}
+	.notebook-item img{
+		width: 100%;
+	}
+	.foot-main{
+		padding-left: 68px;
+	}
+	.foot-list{
+		margin-right: 230px;
+	}
+	.four{
+		margin-right: 220px;
+	}
+	.five{
+		margin-right: 170px;
+	}
+}
+@media only all and (max-width:900px ) {
+	.warp{
+		width: 799px;
+	}
+	.nav-list{
+		width: 460px;
+		overflow: hidden;
+		border-right: 1px solid #e5e5e5;
+	}
+	.logo{
+		margin-left: 24px;
+	}
+	.banner1,.banner2,.banner3{
+		width: 799px;
+	}
+	.banner img{
+		width: 100%;
+	}
+	.notebook-item{
+		width: 352px;
+		margin-bottom: 50px;
+	}
+	.notebook-item img{
+		width: 100%;
+	}
+	.foot-main{
+		padding-left: 24px;
+	}
+	.foot-list{
+		margin-right: 130px;
+	}
+	.four{
+		margin-right: 110px;
+	}
+	.five{
+		margin-right: 70px;
+	}
+}
+@media only all and (max-width:600px ) {
+	.warp{
+		width: 539px;
+	}
+	.login a:nth-last-child(1){
+		display: none;
+	}
+	.login a:nth-last-child(3){
+		margin-left: 30px;
+	}
+	.head-menu{
+		display: block;
+		margin-right: 150px;
+		background: url(../img/icon-menu.png) no-repeat;
+	}
+	.big-banner1{
+		display: none;
+	}
+	.zuixiao-banner1,.zuixiao-banner2{
+		display: block;
+	}
+	.banner img{
+		width: 539px;
+	}
+	.head-nav{
+		display: none;
+	}
+	.nav-list{
+		width: 460px;
+		overflow: hidden;
+		border-right: 1px solid #e5e5e5;
+	}
+	.logo{
+		margin-left: 24px;
+	}
+	.banner1,.banner2,.banner3{
+		width: 799px;
+	}
+	.notebook-list{
+		padding-left: 12px;
+	}
+	.notebook-item{
+		width: 515px;
+		margin-bottom: 50px;
+	}
+	.notebook-item img{
+		width: 100%;
+	}
+	.foot-main{
+		padding-left: 68px;
+	}
+	.foot-list{
+		margin-right: 250px;
+	}
+}
